@@ -2,7 +2,7 @@
 different parts of the Python runtime environment. It allows operating on the interpreter as it provides
 access to the variables and functions that interact strongly with the interpreter.'''
 import sys
-import logging
+from src.logger import logging
 
 # error_detail is present in sys that is why we have written "error_detail:sys"
 def error_message_detail(error,error_detail:sys):
